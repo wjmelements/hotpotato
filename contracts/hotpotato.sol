@@ -9,10 +9,10 @@ interface ERC20 {
     event Transfer(address indexed _from, address indexed _to, uint _value);
     event Approval(address indexed _owner, address indexed _spender, uint _value);
 }
-contract HotPototo is ERC20 {
+contract HotPotato is ERC20 {
     uint8 public constant decimals = 0;
     string public symbol = "HPO";
-    string public name = "HotPototo";
+    string public name = "HotPotato";
 
     address public owner;
     uint256 timestamp;
